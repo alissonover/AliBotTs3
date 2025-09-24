@@ -67,7 +67,7 @@ npm run watch
 
 ### Executar em modo desenvolvimento:
 ```bash
-npm run dev
+npm run cliente
 ```
 
 ### Compilar o projeto:
