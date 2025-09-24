@@ -5,7 +5,7 @@ Um bot desenvolvido em TypeScript para conectar-se a servidores TeamSpeak 3 usan
 ## 📋 Pré-requisitos
 
 - Node.js (versão 16 ou superior)
-- TeamSpeak 3 Server rodando localmente
+- TeamSpeak 3 Server rodando localmente(para teste e config)
 - Credenciais do ServerQuery configuradas
 
 ## 🚀 Instalação
