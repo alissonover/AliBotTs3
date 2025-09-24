@@ -1,0 +1,18 @@
+{
+  "teamspeak": {
+    "host": "localhost",
+    "serverport": 9987,
+    "queryport": 10011,
+    "username": "serveradmin",
+    "password": "fHINsJhb",
+    "nickname": "AliBotTTestes",
+    "protocol": "raw",
+    "virtualServerID": 1,
+    "channelId": "1"
+  },
+  "bot": {
+    "autoReconnect": true,
+    "reconnectDelay": 5000,
+    "logLevel": "info"
+  }
+}

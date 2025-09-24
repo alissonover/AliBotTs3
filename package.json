@@ -1,0 +1,35 @@
+{
+  "name": "alibotts3",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "cliente": "ts-node src/botCliente.ts",
+    "start": "node dist/index.js",
+    "watch": "nodemon --exec ts-node src/index.ts",
+    "diagnostico": "ts-node src/diagnostico.ts",
+    "clean": "rmdir /s /q dist 2>nul || echo \"Diretório dist já limpo\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "teamspeak",
+    "bot",
+    "ts3",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Bot para TeamSpeak 3 criado em TypeScript",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "node-teamspeak": "^1.0.10",
+    "ts3-nodejs-library": "^3.5.1"
+  }
+}
